@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#243c35">
+  <meta name="description" content="Французская военная лексика: тренировки, словарь, статистика и работа над ошибками.">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Militaire — французский по делу</title>
+  <script defer src="./data.js"></script>
+  <script defer src="./core.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">К содержимому</a>
+  <aside class="sidebar">
+    <a class="brand" href="#practice" aria-label="Militaire — главная"><span class="brand-mark">m<span>·</span></span><span>militaire<span class="brand-sub">LE CARNET DE FRANÇAIS</span></span></a>
+    <div class="sidebar-label">ВАШ УЧЕБНЫЙ БЛОКНОТ</div>
+    <nav id="navigation" aria-label="Основная навигация"></nav>
+    <div class="sidebar-bottom"><div class="tricolor"><i></i><i></i><i></i></div><p>Un peu, chaque jour.</p><span>Понемногу. Каждый день.</span><div class="local-label"><span class="status-dot"></span> Прогресс на устройстве</div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="breadcrumb">FRANÇAIS <span>/</span> VOCABULAIRE MILITAIRE</span><span class="connection" id="connection"></span></header>
+    <main id="content" tabindex="-1"></main>
+    <footer class="page-footer"><span>На основе VOCABULAIRE MILITAIRE.pdf</span><span>Сделано для регулярной практики <span class="footer-star">✳</span></span></footer>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="storage-warning" class="storage-warning" role="alert" hidden></div>
+  <noscript><p class="noscript">Для тренажёра нужен JavaScript. Разрешите его в настройках браузера.</p></noscript>
+</body>
+</html>
